@@ -306,7 +306,7 @@ max-width: 550px;
     border-radius: 16px;
     background-position: center;
     margin: auto;
-    background: rgb(234, 255, 78);
+    background: rgb(255, 184, 251);
 }
 
 .newsletter img{
@@ -346,6 +346,8 @@ max-width: 550px;
 .newsletter input{
     width: 648px;
     height: 72px;  
+    border-radius: 50px 0 0 50px;
+    text-indent: 30px;
      
 }
 .newsletter button{
