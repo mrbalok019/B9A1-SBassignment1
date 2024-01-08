@@ -17,6 +17,7 @@ body {
     height: 600px;
     border: 16px;
     margin: 0 auto;
+    margin-top: 50px;
     border-radius: 16px;
     background-repeat: no-repeat;
 }
@@ -352,8 +353,12 @@ max-width: 550px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+}
+.newsletter a{
+    text-decoration: none;
+  
+        /* for text */ 
     color: #FFF;
-        /* for text */
     text-align: center;
     font-family: Inter;
     font-size: 20px;
@@ -361,4 +366,106 @@ max-width: 550px;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+
+/* footer design */
+.footer{
+    width: 100%;
+    height: 609px;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.footertext{
+    display: flex;
+    /* padding: 160px 270px 0 140px; */
+    padding: 100px 140px 0 140px;;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px ;
+
+}
+
+.footertext p{
+    color: #FFF;
+    width: 375px;
+    height: 80px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footercontact{
+    
+}
+.footercontact a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+    margin-left: 16px;
+    
+      
+}
+.footercontact img{
+    width: 24px;
+    height: 24px;
+}
+
+.footer hr{
+    background: rgba(255, 255, 255, 0.733);
+
+
+}
+
+/* footer media */
+
+.footermedia{
+    display: flex;
+    padding: 48px 630px 0 630px;
+    justify-content: space-between;
+    margin:auto;
+    align-items: center;
+}
+.footermedia img{
+    margin-right: 14px;
+}
+.media:hover img{
+    opacity: 50%;
+}
+
+/* rights */
+
+.footerright{
+    display: flex;
+    padding: 100px 140px 0 140px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px ;
+}
+.footerright p{
+    
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footerright a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
 }
