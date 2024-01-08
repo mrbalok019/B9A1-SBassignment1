@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0;
     border: 0;
 }
+
 body {
+    font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-.hfirst{
+
+.hfirst {
     /* background-image: url('resources/Banner\ Image.png'); */
     background-position: center;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(resources/Banner\ Image.png);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner\ Image.png);
     width: 1320px;
     height: 600px;
     border: 16px;
@@ -17,17 +20,19 @@ body {
     border-radius: 16px;
     background-repeat: no-repeat;
 }
-.htext{
+
+.htext {
     /* margin-top: 177px; */
-   
+
     position: absolute;
     top: 138px;
     left: 50%;
-    transform: translate(-50%, 
-    0%);
-    
+    transform: translate(-50%,
+            0%);
+
 }
-.htext h3{
+
+.htext h3 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -36,17 +41,109 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 0;
-  
+
 
 }
-.hfirst h1{
+
+.hfirst h1 {
     color: #FFF;
     margin: 0;
-    
+
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px; 
+    line-height: 95px;
+}
+
+
+/* off section */
+.off {
+    max-width: 803px;
+    margin: 110px auto;
+    align-content: center;
+
+}
+
+.offheader {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.offdes {
+    color: #F00;
+    margin-top: 48px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.offdes h3 {
+    color: black;
+    font-size: 48px;
+}
+
+.offimage {
+    height: 500px;
+}
+
+/* welcome section */
+.welcome {
+    background-position: center;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    border: 16px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+
+.welcomegroup {
+    position: absolute;
+    margin-top: 68px;
+    left: 50%;
+    transform: translate(-50%,
+            0%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1150px;
+    max-height: 464px;
+}
+
+.welcometext h1 {
+    color: #FFF;
+
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-left: 126px 95px 24px 126px;
+}
+
+.welcometext p {
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
