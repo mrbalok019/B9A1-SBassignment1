@@ -295,3 +295,70 @@ max-width: 550px;
     transition: 1s;
 
 }
+
+
+/* newsletter */
+.newsletter{
+    text-align: center;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background-position: center;
+    margin: auto;
+    background: rgb(234, 255, 78);
+}
+
+.newsletter img{
+    padding: 80px 0 0 0;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 150px;
+}
+.newsletter h1{
+    color: #070211;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.newsletter p{
+    color: rgba(7, 2, 17, 0.60);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+.newsletterform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter input{
+    width: 648px;
+    height: 72px;  
+     
+}
+.newsletter button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+        /* for text */
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
