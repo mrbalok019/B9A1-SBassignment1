@@ -26,7 +26,7 @@ body {
     /* margin-top: 177px; */
 
     position: absolute;
-    top: 138px;
+    top: 0 px;
     left: 50%;
     transform: translate(-50%,
             0%);
@@ -41,15 +41,17 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 0;
+    margin-bottom: 16px;
+    margin-top: 177px;
 
 
 }
 
 .hfirst h1 {
     color: #FFF;
-    margin: 0;
-
+    margin-bottom: 177px;
+    width: 632px;
+    height: 190px;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
