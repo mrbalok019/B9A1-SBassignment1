@@ -306,6 +306,116 @@ max-width: 550px;
     height: 140px;
 }
 
+/* sale */
+.sale{
+    max-width: 1320px;
+    height: 987px;
+  
+   
+    align-content: center;
+    margin: 120px auto 0 auto;
+}
+
+.saletext{
+    width: 1320px;
+    text-align: center;
+    margin-bottom: 64px;
+
+    
+}
+.saletext h4{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.saletext h2{
+    margin:16px 0 28px 0;
+    color: #070211;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.saletext p{
+    color: rgba(7, 2, 17, 0.60);
+    /* width: 1068px; */
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 126px;
+    margin-right: 126px;
+}
+
+.saleimage{
+    /* display: flex;
+    justify-content: space-between; */
+}
+.giftboxarea{
+    position: relative;
+}
+.redbox{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    position: relative;
+
+}
+.giftbox{
+    width: 796px;
+    height: 662px;
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    /* left: 176px; */
+   
+}
+
+.percent{
+    /* max-width: 573px; */
+    height: 433px;
+    /* display: flex; */
+    align-items: right;
+    
+    position: relative;
+     
+}
+.percentgirl{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 891px;
+    border-radius: 16px 16px 0px 0px;
+
+    
+}
+.percentimg{
+    width: 306.841px;
+    height: 306.841px;
+    /* background-size: auto;
+    background-color: #070211;
+    border-radius: 100%; */
+    position: absolute;
+    top: 86px;
+    right: 276px;
+    
+}
+
+
+
+
+
 /* portfolio area */
 .portfolio{
     width: 1320px;
